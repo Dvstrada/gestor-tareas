@@ -1,6 +1,6 @@
 # Gestor de Tareas con Flask
 
-Esta es una aplicación web sencilla para gestionar tareas, desarrollada con [Flask](https://flask.palletsprojects.com/) y [Flask‑SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/). Permite crear, listar, completar y eliminar tareas. Es un proyecto de ejemplo para demostrar habilidades de desarrollo full stack en el portafolio de GitHub.
+Esta es una aplicación web sencilla para gestionar tareas, desarrollada con [Flask](https://flask.palletsprojects.com/) y [Flask‑SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/). Permite crear, listar, completar y eliminar tareas.
 
 ## Funcionalidades
 
