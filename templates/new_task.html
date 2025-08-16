@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h2>Crear Nueva Tarea</h2>
+<form action="{{ url_for('new_task') }}" method="post">
+    <label for="title">Título:</label>
+    <input type="text" name="title" id="title" required>
+    <label for="description">Descripción:</label>
+    <textarea name="description" id="description" required></textarea>
+    <button type="submit">Guardar</button>
+    <a href="{{ url_for('index') }}" class="button">Cancelar</a>
+</form>
+{% endblock %}
